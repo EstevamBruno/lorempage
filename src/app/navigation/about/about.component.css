@@ -1,0 +1,32 @@
+/* about */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 20px;
+    background-color: #8f3faf;
+    color: #f1f1f1;
+}
+
+#about p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#about .button {
+    background-color: #f1f1f1;
+    color: #4d4d4d;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    #about {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-width: 250px;;
+    }
+}

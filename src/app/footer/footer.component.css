@@ -1,0 +1,23 @@
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4d4d4d;
+    color: #f1f1f1;
+}
+
+.gotobtn {
+    position: inherit;
+    width: 30px;
+    height: 30px;
+    background: #f1f1f1;
+    bottom: 20px;
+    right: 30px;
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+
+    cursor: pointer;
+}

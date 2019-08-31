@@ -1,0 +1,28 @@
+/* header */
+
+header {
+    background-image: url('../../assets/img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f1f1ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+}
